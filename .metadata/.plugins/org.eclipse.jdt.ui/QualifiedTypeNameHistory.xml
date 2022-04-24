@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="fr.ul.miage.arbre.Lire"/>
+    <fullyQualifiedTypeName name="fr.ul.miage.arbre.Bloc"/>
+    <fullyQualifiedTypeName name="fr.ul.miage.arbre.Prog"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="fr.ul.miage.arbre.Fonction"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.lang.Comparable"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="fr.ul.miage.arbre.Appel"/>
+    <fullyQualifiedTypeName name="fr.ul.miage.arbre.Const"/>
+    <fullyQualifiedTypeName name="fr.ul.miage.arbre.Idf"/>
+    <fullyQualifiedTypeName name="fr.ul.miage.Type"/>
+    <fullyQualifiedTypeName name="fr.ul.miage.arbre.Ecrire"/>
+    <fullyQualifiedTypeName name="fr.ul.miage.arbre.Affectation"/>
+    <fullyQualifiedTypeName name="java.beans.Expression"/>
+    <fullyQualifiedTypeName name="fr.ul.miage.arbre.Inferieur"/>
+    <fullyQualifiedTypeName name="fr.ul.miage.arbre.Noeud.Categories"/>
+    <fullyQualifiedTypeName name="fr.ul.miage.arbre.Si"/>
+    <fullyQualifiedTypeName name="fr.ul.miage.arbre.TantQue"/>
+    <fullyQualifiedTypeName name="fr.ul.miage.arbre.Plus"/>
+    <fullyQualifiedTypeName name="fr.ul.miage.arbre.Multiplication"/>
+    <fullyQualifiedTypeName name="fr.ul.miage.arbre.Division"/>
+    <fullyQualifiedTypeName name="fr.ul.miage.arbre.Retour"/>
+    <fullyQualifiedTypeName name="fr.ul.miage.arbre.Superieur"/>
+    <fullyQualifiedTypeName name="fr.ul.miage.Symbole.Categ"/>
+    <fullyQualifiedTypeName name="fr.ul.miage.Fonction"/>
+    <fullyQualifiedTypeName name="fr.ul.miage.SymboleVariable"/>
+    <fullyQualifiedTypeName name="fr.ul.miage.SymboleFonction"/>
+    <fullyQualifiedTypeName name="fr.ul.miage.TDS"/>
+    <fullyQualifiedTypeName name="fr.ul.miage.arbre.TxtAfficheur"/>
+    <fullyQualifiedTypeName name="generated.fr.ul.miage.expression.Yylex"/>
+</qualifiedTypeNameHistroy>

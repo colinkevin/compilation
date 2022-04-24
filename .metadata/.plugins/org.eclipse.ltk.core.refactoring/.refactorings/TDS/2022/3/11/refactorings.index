@@ -1,0 +1,15 @@
+1647294150807	Rename type 'SymboleFonction'
+1647294171298	Rename type 'SymboleVariable'
+1647294617061	Rename type 'Fonction'
+1647348146135	Delete element
+1647348160542	Delete element
+1647348169410	Delete element
+1647473266481	Encapsulate field 'rang'
+1647518880070	Encapsulate field 'scope'
+1647787466429	Rename type 'Fonction'
+1647787479745	Rename type 'Variable'
+1647787670982	Encapsulate field 'rang'
+1647787684554	Encapsulate field 'val'
+1647787693475	Encapsulate field 'scope'
+1647788287224	Encapsulate field 'nbParam'
+1647788294199	Encapsulate field 'nBloc'

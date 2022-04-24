@@ -1,0 +1,38 @@
+/*Grammaire CUP du projet Expression*/
+package generated.fr.ul.miage.expression;
+ import fr.ul.miage.*;
+parser code {:
+			public Noeud resultat = null;
+:}
+/*----------------------------------------------*/
+/* la grammaire */
+/* 1) terminaux */
+terminal ADD, MUL, PO, PF;
+terminal NUM;
+/* 2) non terminaux */
+non terminal langage;
+non terminal Noeud expression, facteur, atome;
+/* 3) Axiome/Start */
+start with langage;
+/*----------------------------------------------*/
+/*4) regles de production */
+langage ::= expression:e {: RESULT = e :}	
+	;
+expression ::= expression:e ADD facteur:f	{:
+											RESULT= new Plus();
+											((Plus)RESULT).setFilsGauche(e);
+											((Plus)RESULT).setFilsDroit(f);						
+										:}
+	| facteur:f							{:RESULT = f; :}
+	;
+facteur ::= facteur MUL atome:a			{:
+											RESULT= new Multiplication();
+											((Multiplication)RESULT).setFilsGauche(f);
+											((Multipliacation)RESULT).setFilsDroit(a);						
+										:}
+	| atome:a							{: RESULT = a :}
+	;
+atome ::= NUM :n						{: RESULT = new Const(n); :}		
+	| PO expression PF							{: RESULT = n :}
+	;
+       

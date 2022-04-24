@@ -1,0 +1,8 @@
+package fr.ul.miage;
+import fr.ul.miage.arbre.Noeud;
+
+public class Generer_programme extends Generation {
+	public Generer_programme(Noeud a) {
+		super(a);
+	}
+}

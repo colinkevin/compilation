@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Cup/src/main/CUPLEX&apos; to &apos;cuplex&apos;" description="Rename resource &apos;CUPLEX&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/CUPLEX" name="cuplex" stamp="1647882199107" updateReferences="true"/>
+</session>

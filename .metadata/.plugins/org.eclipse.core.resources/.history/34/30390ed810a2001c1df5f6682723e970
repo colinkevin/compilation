@@ -1,0 +1,10 @@
+package fr.ul.miage;
+
+public class SymboleMain extends Symbole {
+
+	public SymboleMain() {
+		setNom("main");
+		setCat("fonction");
+		setType("void");
+	}
+}

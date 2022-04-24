@@ -1,0 +1,12 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.CharSequence"><rhs name\="java.lang.String"/></lhs><lhs name\="java.lang.constant.Constable"><rhs name\="java.lang.String"/><rhs name\="fr.ul.miage.arbre.Noeud$Categories"/><rhs name\="fr.ul.miage.Symbole$Categ"/></lhs><lhs name\="java.lang.constant.ConstantDesc"><rhs name\="java.lang.String"/></lhs><lhs name\="java.lang.Enum"><rhs name\="fr.ul.miage.arbre.Noeud$Categories"/><rhs name\="fr.ul.miage.Symbole$Categ"/></lhs><lhs name\="fr.ul.miage.arbre.Noeud$Categories"><rhs name\="fr.ul.miage.arbre.Noeud$Categories"/></lhs><lhs name\="fr.ul.miage.Symbole$Categ"><rhs name\="fr.ul.miage.Symbole$Categ"/></lhs><lhs name\="fr.ul.miage.Symbole"><rhs name\="fr.ul.miage.SymboleFonction"/></lhs><lhs name\="fr.ul.miage.SymboleFonction"><rhs name\="fr.ul.miage.SymboleFonction"/></lhs></history>
+content_assist_number_of_computers=13
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=21
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

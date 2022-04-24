@@ -1,0 +1,26 @@
+package fr.ul.miage.expression;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.logging.Logger;
+
+import fr.ul.miage.arbre.TxtAfficheur;
+import generated.fr.ul.miage.expression.ParserCup;
+import generated.fr.ul.miage.expression.Yylex;
+
+public class Main {
+	private static final Logger LOG = Logger.getLogger(Main.class.getName());
+	public static void main(String[] args) {
+		LOG.info("Démarrage...");
+		Yylex scanner = new Yylex(new BufferedReader(new InputStreamReader(System.in)));
+		ParserCup parser = new ParserCup(scanner);
+		try {
+			parser.parse();
+			System.out.println("OK");
+			TxtAfficheur.afficher(parser.resultat);
+		} catch (Exception e) {
+			System.out.println("Syntax error !");
+		}
+		LOG.info("Terminé !");
+	}
+}

@@ -1,0 +1,17 @@
+package fr.ul.miage;
+
+import fr.ul.miage.arbre.Noeud;
+
+private String res
+public abstract class Generation {
+	private  Noeud arbre;
+	public Generation(Noeud arbre) {
+		this.arbre = arbre;
+	}
+	
+	public String Generer_programme(Noeud a) {
+		
+		return null;
+		
+	}
+}
